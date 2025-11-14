@@ -1,99 +1,61 @@
-<p align="center">
-<img 
-    src="./assets/cover.png"
-    width="300"
-/>
-</p>
+[OpenAi Badge]: https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&labelColor=000&logoColor=412991
+[Gemini Badge]: https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&labelColor=000
+[ElevenLabs Badge]: https://img.shields.io/badge/ElevenLabs-000?style=for-the-badge&logo=elevenlabs&labelColor=000
 
-<p align="center">
-<a href="https://dio.me/">
-    <img 
-        src="https://img.shields.io/badge/DIO-Code_The_Future-28DA77?logo=youtube" 
-        alt="DIO - Code The Future">
-</a>
-<a href="https://dio.me/">
-<img 
-    src="https://img.shields.io/badge/🔴_LIVE_CODE-FF5E72" 
-    alt="🔴 LIVE CODE">
-</a>
-</p>
-
-<p align="center">
-    preview do podcast
-</p>
+<h1 align="center">Projeto Podcast Gerado por I.A.s</h1>
 
 <div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
+
+![openai][OpenAi Badge] &nbsp;
+![gemini][Gemini Badge] &nbsp;
+![elevenlabs][ElevenLabs Badge]
+
 </div>
 
-# Projeto Podcast Gerado por I.A.s
+<div align="center">
+<img 
+    src="./.github/podcast-cover.png" 
+    alt="Podcast Cover"
+    width="300"
+/>
+</div>
 
+> ℹ️ Este projeto foi desenvolvido como parte do desafio do bootcamp: "Universia - Fundamentos de IA Generativa" da [DIO](https://www.dio.me)
 
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
+### 🎧 Episódio Piloto: O Futuro do Metaverso: Utopia ou Distopia?
 
-Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de prompts mais trabalhado.
+Neste episódio, mergulhamos de forma bem-humorada no universo do metaverso. Será que estamos caminhando para uma utopia digital cheia de liberdade e novas experiências, ou para uma distopia onde a vida real se torna irrelevante e somos controlados por algoritmos?
 
-Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
+Aperte o play e descubra se você será o herói do metaverso ou ficará preso em um loop de reuniões virtuais!
+
+<div align="center">
+    <audio src="output/podcast-ep.mp3" controls title="Episódio Piloto: O Futuro do Metaverso: Utopia ou Distopia?"></audio>
+</div>
+
+## 📄 Sobre o projeto
+
+Projeto com o objetivo de criar um podcast do zero utilizando exclusivamente ferramentas de Inteligência Artificial, desde a concepção do roteiro até a geração da capa e da narração.
+
+A ideia central é demonstrar uma esteira de produção de conteúdo onde prompts bem elaborados guiam as I.A.s em cada etapa do processo criativo.
 
 ## 💻 Tecnologias utilizadas no projeto
 
-- [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
+- [ChatGPT](https://chat.openai.com/)
+- [Google Gemini](https://gemini.google.com/app)
 - [ElevenLabs](https://beta.elevenlabs.io/)
 - [Capcut](https://www.capcut.com/pt-br/)
 
-## ✨ Como foi feito ?
+## 📝 Como foi feito ?
 
-- Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
-
-## 📚 Materiais
-
-- [Link da live no Youtube](https://www.youtube.com)
-- [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
-
+- **Roteiro** gerado via chatgpt
+- **Audio** gerado pela elevenLabs
+- **Capa** gerada pelo google gemini
+- Capcut para tratar aúdio e adicionar leves efeitos
 
 ## 🛠️ Instruções de execução
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+Para replicar o processo e criar seu próprio podcast, você pode seguir os passos abaixo, utilizando os prompts e materiais de apoio.
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
-
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
-
----
-
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+1.  🤖 **Roteiro com ChatGPT:** Use os prompts disponíveis em `src/prompts/chatgpt.md` para gerar seu próprio roteiro.
+2.  🤖 **Narração com ElevenLabs:** Copie os trechos do roteiro gerado e cole na plataforma da ElevenLabs para criar o áudio.
+3.  🤖 **Capa com Goggle Gemini:** Use o prompt de arte para disponível em `src/prompts/google-gemini.md` para gerar uma capa para o seu podcast.
