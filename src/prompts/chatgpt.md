@@ -1,3 +1,8 @@
+# ChatGPT:
+
+## Prompt para gerar temas para o roteiro do podcast
+
+```markdown
 # Instruções
 
 Você é um **roteirista de podcast com muitos anos de experiência**, especializado em tecnologia, inovação e cultura gamer.
@@ -27,9 +32,13 @@ Mantenha o estilo:
 - com leve toque criativo.
 
 Aguarde minha escolha para passarmos à próxima etapa.
+```
 
----
+## Prompt para gerar o roteiro do episódio
 
+> ⚠️ Observações: Substituir **[Tema Escolhido]** baseado nas opções geradas no prompt anterior e **[Público-alvo]**.
+
+```markdown
 O tema escolhido para o episódio é **[Tema Escolhido]**.
 
 # Objetivo
@@ -69,3 +78,4 @@ O conteúdo será direcionado a **[Público-alvo]**, com foco em manter o tom ac
 - O humor **leve e irônico** deve ser usado para criar um ritmo dinâmico e evitar que o episódio se torne excessivamente técnico ou monótono.
 - Lembre-se: o objetivo é **divertir** o público, mantendo o foco no tema e no formato narrativo.
 - O episódio não deve ultrapassar **5 minutos**.
+```
