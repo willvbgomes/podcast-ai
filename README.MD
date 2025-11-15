@@ -29,7 +29,7 @@ Neste episódio, mergulhamos de forma bem-humorada no universo do metaverso. Ser
 Aperte o play e descubra se você será o herói do metaverso ou ficará preso em um loop de reuniões virtuais!
 
 <div align="center">
-    <audio src="output/podcast-ep.mp3" controls title="Episódio Piloto: O Futuro do Metaverso: Utopia ou Distopia?"></audio>
+    <audio src="./output/podcast-ep.mp3" controls title="Episódio Piloto: O Futuro do Metaverso: Utopia ou Distopia?"></audio>
 </div>
 
 ## 📄 Sobre o projeto
